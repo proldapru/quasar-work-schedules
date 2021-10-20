@@ -49,6 +49,10 @@ export default {
       }
     },
 
+    scheduleDutyTypes(state) {
+      return state.curSchedule.duty_types
+    },
+
     employees(state) {
       return state.curSchedule.persons
     }
